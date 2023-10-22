@@ -1,0 +1,22 @@
+
+ body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+} 
+form{
+    padding: 20px;
+    background-color: rgb(132, 111, 150);   
+}
+form .col{
+    margin-bottom: 20px;
+    align-items: center; 
+}
+form .col input{
+    width: 500px;
+    color: green;
+}
+
