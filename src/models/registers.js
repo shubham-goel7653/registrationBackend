@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 const schema = new mongoose.Schema({
+    _id: String,
     firstname: String,
     lastname: String,
     email: String,
@@ -8,8 +9,7 @@ const schema = new mongoose.Schema({
         unique: true,
 
     },
-    password: String,
-    confirmpassword: String
+    password: String
 },
     {
         versionKey: false
